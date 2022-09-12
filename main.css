@@ -113,6 +113,15 @@ body {
   border-radius: 0.5em;
   padding: 1em;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.add__product__to__cart:hover {
+  filter: brightness(0.8);
+}
+
+.add__product__to__cart:active {
+  transform: scale(1.1);
 }
 
 .attribution {
