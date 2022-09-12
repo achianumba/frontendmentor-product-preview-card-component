@@ -130,6 +130,11 @@ body {
 ==================================
  */
 @media screen and (min-width: 800px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .product {
     max-width: 640px;
     height: auto;
